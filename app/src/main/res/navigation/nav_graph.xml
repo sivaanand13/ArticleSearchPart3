@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/articleListFragment">
+
+    <fragment
+        android:id="@+id/articleListFragment"
+        android:name="com.codepath.articlesearch.ArticleListFragment"
+        android:label="fragment_article_list"
+        tools:layout="@layout/fragment_article_list" />
+    <fragment
+        android:id="@+id/bestSellerBooksFragment"
+        android:name="com.codepath.articlesearch.BestSellerBooksFragment"
+        android:label="fragment_book_list"
+        tools:layout="@layout/fragment_best_seller_books_list"/>
+</navigation>
